@@ -1,5 +1,7 @@
 # habitat.g8
 
+[![Build Status](https://travis-ci.org/Philippus/habitat.g8.svg?branch=master)](https://travis-ci.org/Philippus/habitat.g8)
+
 This is a [Giter8][g8] template for Scala containing my preferred starting point for Scala library projects. Feel free
 to base your own template on this one.
 

@@ -1,5 +1,7 @@
-addSbtPlugin("org.scalariform" % "sbt-scalariform" % "1.8.2")
+addSbtPlugin("org.scalameta" % "sbt-scalafmt" % "2.4.6")
 
-addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.5.1")
+addSbtPlugin("ch.epfl.scala" % "sbt-version-policy" % "2.0.1")
 
-addSbtPlugin("org.foundweekends" % "sbt-bintray" % "0.5.4")
+addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.9.3")
+
+addSbtPlugin("com.github.sbt" % "sbt-ci-release" % "1.5.10")

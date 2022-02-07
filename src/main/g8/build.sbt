@@ -20,7 +20,7 @@ ThisBuild / versionScheme := Some("semver-spec")
 ThisBuild / versionPolicyIntention := Compatibility.BinaryCompatible
 
 Compile / packageBin / packageOptions += Package.ManifestAttributes(
-  "Automatic-Module-Name" -> "$organization$.$name$"
+  "Automatic-Module-Name" -> "$organization$.$mainPackage$"
 )
 
 scalacOptions += "-deprecation"

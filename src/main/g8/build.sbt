@@ -31,3 +31,5 @@ libraryDependencies ++= Seq(
 )
 
 testFrameworks += new TestFramework("munit.Framework")
+
+ThisBuild / turbo := true

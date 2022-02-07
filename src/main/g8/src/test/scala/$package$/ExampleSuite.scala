@@ -1,5 +1,5 @@
 package $organization$
-package $name$
+package $mainPackage$
 
 import munit.ScalaCheckSuite
 import org.scalacheck.Prop._

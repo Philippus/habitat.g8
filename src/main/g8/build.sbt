@@ -2,7 +2,7 @@ name := "$name$"
 organization := "$organization$"
 startYear := Some(2022)
 homepage := Some(url("https://github.com/philippus/$name$"))
-licenses += ("Mozilla Public License, version 2.0", url("https://www.mozilla.org/MPL/2.0/"))
+licenses += ("MPL-2.0", url("https://www.mozilla.org/MPL/2.0/"))
 
 developers := List(
   Developer(
@@ -20,7 +20,7 @@ ThisBuild / versionScheme := Some("semver-spec")
 ThisBuild / versionPolicyIntention := Compatibility.BinaryCompatible
 
 Compile / packageBin / packageOptions += Package.ManifestAttributes(
-  "Automatic-Module-Name" -> "$organization$.$name$"
+  "Automatic-Module-Name" -> "$organization$.$mainPackage$"
 )
 
 scalacOptions += "-deprecation"
@@ -31,3 +31,5 @@ libraryDependencies ++= Seq(
 )
 
 testFrameworks += new TestFramework("munit.Framework")
+
+ThisBuild / turbo := true

@@ -9,9 +9,7 @@
 ## Installation
 $name;format="cap"$ is published for Scala 2.13. To start using it add the following to your `build.sbt`:
 
-```
-libraryDependencies += "$organization$" %% "name" % "0.0.1"
-```
+    libraryDependencies += "$organization$" %% "$name$" % "0.0.1"
 
 ## Example usage
 

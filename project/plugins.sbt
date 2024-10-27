@@ -1,9 +1,9 @@
 addSbtPlugin("org.foundweekends.giter8" %% "sbt-giter8" % "0.16.2")
 
-addSbtPlugin("org.scalameta" % "sbt-scalafmt" % "2.4.6")
+addSbtPlugin("org.scalameta" % "sbt-scalafmt" % "2.5.2")
 
-addSbtPlugin("ch.epfl.scala" % "sbt-version-policy" % "2.0.1")
+addSbtPlugin("ch.epfl.scala" % "sbt-version-policy" % "3.2.1")
 
-addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.9.3")
+addSbtPlugin("org.scoverage" % "sbt-scoverage" % "2.2.2")
 
-addSbtPlugin("com.github.sbt" % "sbt-ci-release" % "1.5.10")
+addSbtPlugin("com.github.sbt" % "sbt-ci-release" % "1.9.0")

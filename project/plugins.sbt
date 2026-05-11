@@ -1,6 +1,6 @@
 addSbtPlugin("org.foundweekends.giter8" %% "sbt-giter8" % "0.18.0")
 
-addSbtPlugin("org.scalameta" % "sbt-scalafmt" % "2.6.0")
+addSbtPlugin("org.scalameta" % "sbt-scalafmt" % "2.6.1")
 
 addSbtPlugin("ch.epfl.scala" % "sbt-version-policy" % "3.2.1")
 

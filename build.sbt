@@ -14,6 +14,6 @@ developers := List(
 )
 
 libraryDependencies ++= Seq(
-  "org.scalameta" %% "munit"            % "1.3.4" % Test,
+  "org.scalameta" %% "munit"            % "1.3.5" % Test,
   "org.scalameta" %% "munit-scalacheck" % "1.3.0" % Test
 )
